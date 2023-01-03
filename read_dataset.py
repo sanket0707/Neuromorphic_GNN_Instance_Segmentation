@@ -432,7 +432,7 @@ number_of_epoch=150
 
 Path="C:/Users/sanke/OneDrive/Documents/AI_2023/Academic_AI/Reserch_Paper_Publish_Preparation/Second_Paper_GNN/YS_02_Jan_23_GTNN_3L/YS_02_Jan_23_GTNN_3L/dataset/"
 train_path_seq00_p1 = osp.join(Path+'seq00')
-
+print("!11111111",train_path_seq00_p1)
 
 
 train_data_aug = T.Compose([T.Cartesian(cat=False), T.RandomFlip(axis=0, p=0.3), T.RandomScale([0.95,0.999]) ])
