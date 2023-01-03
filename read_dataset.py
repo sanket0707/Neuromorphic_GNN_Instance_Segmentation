@@ -429,8 +429,9 @@ number_of_epoch=150
 # Path='/home/kucarst3-dlws/Desktop'
 # Path='/media/kucarst3-dlws/HDD4/3NEW_MoSeg_Model_5000_dataset_simple/'
 #Path="/media/kucarst3-dlws/HDD3/YS_02_Jan_23_GTNN_3L/dataset/"
+#Path="C:/Users/sanke/OneDrive/Documents/AI_2023/Academic_AI/Reserch_Paper_Publish_Preparation/Second_Paper_GNN/YS_02_Jan_23_GTNN_3L/YS_02_Jan_23_GTNN_3L/dataset/"
 
-Path="C:/Users/sanke/OneDrive/Documents/AI_2023/Academic_AI/Reserch_Paper_Publish_Preparation/Second_Paper_GNN/YS_02_Jan_23_GTNN_3L/YS_02_Jan_23_GTNN_3L/dataset/"
+Path=r'C:\Users\sanke\OneDrive\Documents\AI_2023\Academic_AI\Reserch_Paper_Publish_Preparation\Second_Paper_GNN\YS_02_Jan_23_GTNN_3L\YS_02_Jan_23_GTNN_3L\dataset\'
 train_path_seq00_p1 = osp.join(Path+'seq00')
 print("!11111111",train_path_seq00_p1)
 
